@@ -10,10 +10,7 @@ let swiftSettings: [SwiftSetting] = [
 let package = Package(
     name: "mvt-tools",
     platforms: [
-        .iOS(.v13),
-        .macOS(.v13),
-        .tvOS(.v13),
-        .watchOS(.v6),
+        .iOS(.v17),
     ],
     products: [
         .executable(
